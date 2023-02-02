@@ -1,0 +1,30 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+    margin: 0px 25px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: green;
+}
