@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container,
+.week,
+.notes {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 65vw;
+    height: 400px;
+    align-items: stretch;
+}
+
+.week {
+    flex-wrap: wrap;
+    /* align-content: stretch; */
+    align-items: stretch;
+}
+
+
+
+span {
+    border: 1px solid black;
+    flex-grow: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.workweek_days {
+    flex-shrink: 0;
+}
+
+.workweek {
+    /* padding: 20px;*/
+    flex-basis: 100%;
+}
+
+.weekend {
+    /* padding: 20px;*/
+    flex-basis: 100%;
+}
+
+
+.notes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    white-space: nowrap;
+}
+
+/* .notes>span */

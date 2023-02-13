@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: lightgray;
+}
+
+body,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+ul {
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+li {
+    border: 6px solid black;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    flex:26%;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25), 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

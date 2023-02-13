@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    gap: 20px;
+}
+
+div {
+    display: flex;
+    background-color: black;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.45);
+}
+
+div:nth-child(1) {
+    width: 30%;
+
+}
+
+div:nth-child(2) {
+    flex: 0 0 60%;
+    justify-content: center;
+}
+
+div:nth-child(3) {
+    width: 30%;
+}
+
+div:nth-child(4) {
+    width: 30%;
+}
+
+img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
