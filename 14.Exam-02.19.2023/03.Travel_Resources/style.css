@@ -1,0 +1,233 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* HEADER */
+
+
+.header {
+    position: relative;
+    height: 800px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.header img {
+    width: 100%;
+    position: absolute;
+    top: -220px;
+    z-index: -1;
+}
+
+.header-content {
+    box-sizing: border-box;
+    max-width: 1200px;
+    height: 900px;
+    margin: 0px auto;
+    padding: 0px 30px;
+    display: grid;
+    grid-template-rows: 1fr 8fr; 
+}
+
+.header-content .navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header-content .navbar p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-content .navbar .navbar-right-content,
+.header-content .navbar .navbar-right-content ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.header-content .main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    gap: 50px;
+    font-size: 22px;
+}
+
+.header-content .main-content h1{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.header-content .main-content h1>span{
+    display: block;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header-content .header-button{
+    position: relative;
+    background-color: #370611;
+    border-radius: 20px;
+    width: 220px;
+    height: 40px;
+}
+
+.header-content .header-button a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+/* MAIN */
+
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 0px 80px 0px;
+}
+
+.main .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    font-size: 22px;
+}
+
+.main .main-content .main-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main .main-content .main-sub-title{
+    margin-bottom: 30px;
+}
+
+.main .main-content .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+}
+
+.main .main-content .card {
+    height: 600px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.main .main-content .card img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/0.8;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+ 
+.main .main-content .card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 30px;
+}
+
+.main .main-content .card .card-content h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main .main-content .card .card-content p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.main .main-content .card .card-content .card-button{
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid black;
+    width: 210px;
+    height: 60px;
+}
+
+.main .main-content .card .card-content a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 80px 0px 80px 0px;
+    background-color: black;
+    color: white;
+}
+
+.footer-content {
+    max-width: 1200px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+.footer-content p{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer-content .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content .navbar a{
+    color: white;
+}
+
+.footer-content li {
+    margin-bottom: 30px;
+}
+
+.footer-content .follow {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.footer-content .icons i{
+    margin-left: 20px;
+}
